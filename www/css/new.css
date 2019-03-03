@@ -1,0 +1,54 @@
+body{
+	background: url(../img/background.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+  padding-left:0; padding-right:0
+}
+
+.thumbnail{
+  background: rgba(250, 250, 250, .5);
+	padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+[class*="col-"]{
+  padding: 3px;
+}
+
+.fancyimage{
+	padding: 0px;
+}
+/*a{
+	padding: 0px;
+}*/
+
+/*.row:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+@media screen and (max-width: 767px) {
+	.grid-sizer{
+		content: 100%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.grid-sizer{
+		width: 50%;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.grid-sizer{
+		width: 25%;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.grid-sizer{
+		width: 20%;
+	}
+}*/
